@@ -8,8 +8,8 @@ You will need a MongoDB. When you have one just set the environment variables li
 3. Set PORT=[DESIRED_PORT]
 
 Install and run the server locally on localhost:[DESIRED_PORT]
-1. Run $ npm install
-2. Run $ npm run dev
+1. Run command `$ npm install`
+2. Run command `$ npm run dev`
 
 
 ## API Documentation
