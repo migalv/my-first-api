@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 /// MIDDLEWARE ///
-// Swagger ocumentation
+// Swagger documentation
 const specs = swaggerJsdoc(require("./config/swagger_config"));
 app.use(
   "/api-docs",
@@ -38,14 +38,3 @@ mongoose.connect(
 app.listen(port, () => {
   console.log('We are live on port: ' + port);
 });
-
-
-
-
-// MongoClient.connect(db.url, (err, database) => {
-//   if (err) return console.log(err)
-
-//   require('./app/routes')(app, database);
-
-//   app.listen(port, () => { console.log('We are live on ' + port); });
-// })
